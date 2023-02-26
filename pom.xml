@@ -39,18 +39,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>com.xenoamess.docker</groupId>
-				<artifactId>dockerfile-maven-plugin</artifactId>
-				<version>1.4.25</version>
-				<configuration>
-					<repository>mydeveloperplanet/mygraalvmplanet</repository>
-					<tag>${project.version}</tag>
-					<buildArgs>
-						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
-					</buildArgs>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 

@@ -1,0 +1,3 @@
+FROM ubuntu:jammy
+COPY target/mygraalvmplanet mygraalvmplanet
+ENTRYPOINT ["/mygraalvmplanet"]

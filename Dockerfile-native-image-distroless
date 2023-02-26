@@ -1,0 +1,3 @@
+FROM gcr.io/distroless/base
+COPY target/mygraalvmplanet mygraalvmplanet
+ENTRYPOINT ["/mygraalvmplanet"]
